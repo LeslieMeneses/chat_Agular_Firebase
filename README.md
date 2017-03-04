@@ -93,7 +93,7 @@ angular.module('chatapp', ['firebase'])
 .service('Auth', AuthService)
 .service('Messages', MessagesService)
 .directive('messageBox', MessageBoxDirective)
-.constant('FirebaseRef', new Firebase('https://first-853f5.firebaseio.com/messages'));
+.constant('FirebaseRef', new Firebase('TU-URL/messages'));
 
 function MainCtrl(Auth, Messages){
   var vm = this;
