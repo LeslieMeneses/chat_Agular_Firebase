@@ -83,7 +83,7 @@
 </html>
   ```
   
-  # Agregar el archivo app.js
+  #Agregar el archivo app.js
   ```
   // This basic angular chat app is for a General Assembly
 // course I am teaching.
