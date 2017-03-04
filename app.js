@@ -1,4 +1,4 @@
-// This basic angular chat app is for a General Assembly
+// This basic angular chat app is for a General Assembly 
 // course I am teaching.
 
 angular.module('chatapp', ['firebase'])

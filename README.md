@@ -10,6 +10,11 @@
 
 <head>
   <title>Awesome chat app</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css">
 </head>
 
 <body ng-app="chatapp" ng-controller="MainCtrl as app">
@@ -55,6 +60,7 @@
               <div class="small-11 columns">
                 <strong>{{message.name}}</strong>
                 <p>{{message.text}}</p>
+                <p>{{message.time |  date : format : timezone}}</p>
               </div>
             </div>
           </div>
