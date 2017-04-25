@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css">
 </head>
 
-<body ng-app="chatapp" ng-controller="MainCtrl as app">
+<body ng-app="chatapp" **ng-controller="MainCtrl as app"**>
   <div class="top-bar">
     <div class="top-bar-left">
       <ul class="menu">
