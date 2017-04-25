@@ -1,6 +1,6 @@
 # chat_Agular_Firebase
 
-# Archivos::
+# Archivos:
 * app.js
 * index.html
 
