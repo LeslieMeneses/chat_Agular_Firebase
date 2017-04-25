@@ -1,8 +1,8 @@
 # chat_Agular_Firebase
 
-# Archivos:
-  > app.js
-  > index.html
+# Archivos::
+* app.js
+* index.html
 
 #Agregar código HTML index.html
   ```
